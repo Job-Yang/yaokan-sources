@@ -1,10 +1,11 @@
 {
-  "_comment": "遥看TV 动态点播源目录。只收苹果CMS V10 标准（/api.php/provide/vod，type=1 JSON）、已实测返回真实 m3u8 的独立片库。同库多域名只保留一个。失效源会从这里删除，App 下次刷新自动生效。",
+  "_comment": "遥看TV 动态点播源目录。只收苹果CMS V10 标准（/api.php/provide/vod，type=1 JSON）、已实测返回真实 m3u8 的独立片库。同库多域名只保留一个。失效源会从这里删除，App 下次刷新自动生效。与 App 内置源按 URL 去重合并，这里可放内置之外的补充源，也可在某内置源域名迁移时以新 URL 顶替。",
   "updated": "2026-10-18",
   "sources": [
     { "name": "光速资源", "url": "https://api.guangsuapi.com/api.php/provide/vod" },
     { "name": "红牛资源", "url": "https://www.hongniuzy2.com/api.php/provide/vod" },
     { "name": "极速资源", "url": "https://jszyapi.com/api.php/provide/vod" },
-    { "name": "豪华资源", "url": "https://hhzyapi.com/api.php/provide/vod" }
+    { "name": "豪华资源", "url": "https://hhzyapi.com/api.php/provide/vod" },
+    { "name": "虎牙资源", "url": "https://www.huyaapi.com/api.php/provide/vod" }
   ]
 }
